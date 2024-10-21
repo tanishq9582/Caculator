@@ -1,0 +1,78 @@
+*{
+     margin:0;
+     padding: 0;
+     font-family: 'Times New Roman', Times, serif;
+     box-sizing: border-box;
+     
+}
+
+.container{
+     /* for page detail */
+     width: 100%;
+     height: 100vh;
+     background: #e3f9ff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* where the content will come */
+}
+.entry{
+     /* for entry line */
+     padding: 15px;
+     /* //for text to align in box */
+     outline: 10px;
+     height: 80px;
+     width: 100%;
+     font-size: 20px;
+     border-radius: 200px;
+     text-align: center;
+     background: #f48637;
+     
+}
+.calci{
+     /* for outline of calculator */
+     background: rgb(40, 36, 36);
+     padding: 20px;
+     /* for calci boundary */
+     border-radius: 40px;
+     /* for round corners */
+}
+.calci form input{
+     /* for the buttons */
+     border: 0;
+     outline: 0;
+     height: 75px;
+     width: 75px;
+     border-radius: 50px;
+     color: rgb(255, 255, 255);
+     background-color:transparent;
+     /* for square buttons with curved corners */
+     font-size: 30px;
+     cursor: pointer;
+     /* for change of cursor upon button */
+     margin: 10px;
+     /* for 3d effect of buttons */
+     box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+
+}
+form .display{
+     display: flex;
+     justify-content: flex-end;
+     /* strts to enter digits from right end */
+     margin: 20px 0;
+     /* top-bottom right-left margin */
+}
+form .display input{
+     /* for the display of calci  */
+     text-align: right;
+     flex: 1;
+     font-size: 55px;
+     box-shadow: none;
+}
+/* form input and class name should be in sequence as in the html code */
+form input.equal{
+     width: 175px;
+}
+form input.operator{
+     background-color: #f48637;
+}
