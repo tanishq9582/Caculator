@@ -11,7 +11,8 @@ A simple yet powerful calculator built in [programming language or framework, e.
 
 ## Demo
 
-![Calculator Demo]([https://drive.google.com/file/d/1G-Dii6azxxSyeWIigH9oAYuEkjWJeGno/view?usp=drive_link](https://drive.google.com/file/d/1G-Dii6azxxSyeWIigH9oAYuEkjWJeGno/view?usp=sharing))
+![Calculator Demo](![Screenshot 2024-10-21 233529](https://github.com/user-attachments/assets/6e12e41d-6583-43ac-8b7e-45fc632c89dd)
+)
 
 ## Installation
 
